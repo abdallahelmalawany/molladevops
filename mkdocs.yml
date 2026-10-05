@@ -1,0 +1,110 @@
+site_name: DevOps & MLOps Notes
+site_description: Personal revision notes for DevOps and MLOps tools — Terraform, Kubernetes, CI/CD, MLOps and more.
+site_author: Abdallah Almalawany
+# site_url is set automatically by the GitHub Pages workflow if you uncomment and edit:
+# site_url: https://<your-username>.github.io/devops-notes/
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - Home: index.md
+  - Terraform:
+      - terraform/index.md
+      - Basics:
+          - Introduction & IaC: terraform/01-introduction.md
+          - Providers: terraform/02-providers.md
+          - Resources, Data Sources & Dependencies: terraform/03-resources-data.md
+          - Core Workflow & CLI: terraform/04-workflow-cli.md
+      - HCL Language:
+          - Variables, Locals & Outputs: terraform/05-variables-outputs.md
+          - Expressions, Loops & Functions: terraform/06-expressions-functions.md
+          - Validation & Custom Conditions: terraform/07-validation-conditions.md
+          - Provisioners & terraform_data: terraform/08-provisioners.md
+      - State & Modules:
+          - State, Backends & Workspaces: terraform/09-state-backends.md
+          - Import & Refactoring: terraform/10-import-refactor.md
+          - Modules & Registry: terraform/11-modules.md
+      - Security & Teams:
+          - Secrets & Sensitive Data: terraform/12-secrets-security.md
+          - HCP Terraform & Enterprise: terraform/13-hcp-terraform.md
+          - Team Workflow & Best Practices: terraform/14-best-practices.md
+      - Practice & Exam:
+          - Hands-on Labs & Projects: terraform/15-labs.md
+          - CLI Cheat Sheet: terraform/16-cheatsheet.md
+          - Associate Exam (004) Guide: terraform/17-exam.md
+          - What Changed vs. the Course: terraform/18-changes.md

@@ -1,0 +1,9 @@
+.md-typeset .grid.cards > ul > li { border-radius: 10px; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset .exam-tag {
+  display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .02em;
+  padding: .1rem .45rem; border-radius: 999px; margin-right: .25rem;
+  background: var(--md-accent-fg-color--transparent); color: var(--md-accent-fg-color);
+  border: 1px solid var(--md-accent-fg-color);
+}
+.md-typeset .status-soon { opacity: .6; }
