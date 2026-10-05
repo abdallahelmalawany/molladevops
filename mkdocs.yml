@@ -1,8 +1,10 @@
 site_name: MollaDevops
 site_description: Personal revision notes for DevOps and MLOps tools — Terraform, Kubernetes, CI/CD, MLOps and more.
-site_author: Abdallah Almalawany
-# site_url is set automatically by the GitHub Pages workflow if you uncomment and edit:
-# site_url: https://<your-username>.github.io/devops-notes/
+site_author: Abdallah Elmalawany
+repo_url: https://github.com/abdallahelmalawany/molladevops
+repo_name: abdallahelmalawany/molladevops
+edit_uri: edit/main/docs/
+site_url: https://abdallahelmalawany.github.io/molladevops/
 
 theme:
   name: material
