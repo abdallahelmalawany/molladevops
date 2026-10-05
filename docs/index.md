@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# DevOps & MLOps Notes
+# MollaDevops
 
-Personal revision notes for the tools I use and study — organised so any topic can be reviewed in a few minutes.
+DevOps & MLOps revision notes for the tools I use and study — organised so any topic can be reviewed in a few minutes.
 
 Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
 
