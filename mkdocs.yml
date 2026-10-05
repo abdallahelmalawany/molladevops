@@ -110,3 +110,36 @@ nav:
           - CLI Cheat Sheet: terraform/16-cheatsheet.md
           - Associate Exam (004) Guide: terraform/17-exam.md
           - What Changed vs. the Course: terraform/18-changes.md
+  - Kubernetes:
+      - kubernetes/index.md
+      - Basics:
+          - Fundamentals: kubernetes/01-fundamentals.md
+          - Architecture: kubernetes/02-architecture.md
+          - Cluster Setup: kubernetes/03-cluster-setup.md
+          - kubectl & YAML: kubernetes/04-kubectl-yaml.md
+      - Workloads:
+          - Pods & Workloads: kubernetes/05-pods-workloads.md
+          - Scheduling & Autoscaling: kubernetes/08-scheduling-autoscaling.md
+          - Jobs & CronJobs: kubernetes/09-jobs-cronjobs.md
+          - ConfigMaps & Secrets: kubernetes/10-configuration.md
+      - Networking:
+          - Networking, CNI & DNS: kubernetes/06-networking.md
+          - Services, Ingress & Gateway API: kubernetes/07-services-ingress-gateway.md
+      - Storage & State:
+          - Storage: kubernetes/11-storage.md
+          - StatefulSets: kubernetes/12-statefulsets.md
+          - Helm, Kustomize & CRDs: kubernetes/13-helm-kustomize-crds.md
+      - Security:
+          - Security & RBAC: kubernetes/14-security.md
+      - Operations:
+          - Amazon EKS: kubernetes/15-eks.md
+          - Observability & Troubleshooting: kubernetes/16-observability-troubleshooting.md
+          - Cluster Maintenance: kubernetes/17-maintenance.md
+          - Production & GitOps: kubernetes/18-production-gitops.md
+      - AI Infrastructure:
+          - AI & GPUs: kubernetes/19-ai-gpu.md
+      - Practice & Exams:
+          - Hands-on Labs & Capstones: kubernetes/20-labs.md
+          - kubectl Cheat Sheet: kubernetes/21-cheatsheet.md
+          - CKA / CKS Exam Guide: kubernetes/22-exams.md
+          - What Changed vs. the Course: kubernetes/23-changes.md

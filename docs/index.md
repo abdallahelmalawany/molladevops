@@ -22,11 +22,13 @@ Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
 
     [:octicons-arrow-right-24: Start here](terraform/index.md) · [Cheat sheet](terraform/16-cheatsheet.md) · [Exam guide](terraform/17-exam.md)
 
--   :material-kubernetes:{ .lg .middle } **Kubernetes** <small>(coming soon)</small>
+-   :material-kubernetes:{ .lg .middle } **Kubernetes**
 
     ---
 
-    Core objects, scheduling, networking, storage, security (CKA / CKS).
+    Architecture, workloads, networking, storage, security, EKS, maintenance and GPU/AI infrastructure — aligned with **CKA / CKS**.
+
+    [:octicons-arrow-right-24: Start here](kubernetes/index.md) · [Cheat sheet](kubernetes/21-cheatsheet.md) · [Exam guide](kubernetes/22-exams.md)
 
 -   :material-source-branch:{ .lg .middle } **CI/CD & GitOps** <small>(coming soon)</small>
 
