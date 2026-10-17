@@ -30,6 +30,14 @@ Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
 
     [:octicons-arrow-right-24: Start here](kubernetes/index.md) · [Cheat sheet](kubernetes/21-cheatsheet.md) · [Exam guide](kubernetes/22-exams.md)
 
+-   :material-microsoft-azure:{ .lg .middle } **Microsoft Azure**
+
+    ---
+
+    Cloud concepts, architecture, compute, networking, storage, identity, security, governance, monitoring and cost — aligned with **AZ-900**.
+
+    [:octicons-arrow-right-24: Start here](azure/index.md) · [Cheat sheet](azure/15-cheatsheet.md) · [Exam guide](azure/16-exam.md)
+
 -   :material-source-branch:{ .lg .middle } **CI/CD & GitOps** <small>(coming soon)</small>
 
     ---

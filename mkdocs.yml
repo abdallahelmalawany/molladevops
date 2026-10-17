@@ -1,5 +1,5 @@
 site_name: MollaDevops
-site_description: Personal revision notes for DevOps and MLOps tools — Terraform, Kubernetes, CI/CD, MLOps and more.
+site_description: Personal revision notes for DevOps and MLOps tools — Terraform, Kubernetes, Azure, CI/CD, MLOps and more.
 site_author: Abdallah Elmalawany
 repo_url: https://github.com/abdallahelmalawany/molladevops
 repo_name: abdallahelmalawany/molladevops
@@ -143,3 +143,28 @@ nav:
           - kubectl Cheat Sheet: kubernetes/21-cheatsheet.md
           - CKA / CKS Exam Guide: kubernetes/22-exams.md
           - What Changed vs. the Course: kubernetes/23-changes.md
+  - Azure:
+      - azure/index.md
+      - Foundations:
+          - Cloud Concepts: azure/01-cloud-concepts.md
+          - Azure Architecture: azure/02-architecture.md
+      - Core Services:
+          - Compute: azure/03-compute.md
+          - Networking: azure/04-networking.md
+          - Storage: azure/05-storage.md
+          - Databases: azure/06-databases.md
+      - Identity & Security:
+          - Identity & Access: azure/07-identity.md
+          - Security: azure/08-security.md
+      - Management & Governance:
+          - Governance & Compliance: azure/09-governance-compliance.md
+          - Management & Monitoring Tools: azure/10-management-tools.md
+          - Cost Management: azure/11-cost-management.md
+          - SLAs & Service Lifecycle: azure/12-sla-lifecycle.md
+      - Solutions:
+          - IoT, Data, AI & DevOps: azure/13-solutions.md
+      - Practice & Exam:
+          - Hands-on Labs: azure/14-labs.md
+          - Azure CLI Cheat Sheet: azure/15-cheatsheet.md
+          - AZ-900 Exam Guide: azure/16-exam.md
+          - What Changed vs. the Course: azure/17-changes.md
