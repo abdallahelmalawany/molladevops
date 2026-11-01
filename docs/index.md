@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# MollaDevops
+# MLDev(Ops)\*2
 
-DevOps & MLOps revision notes for the tools I use and study — organised so any topic can be reviewed in a few minutes.
+**ML + Dev + Ops, squared** — revision notes for the DevOps and MLOps tools I use and study, organised so any topic can be reviewed in a few minutes.
 
 Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
 
@@ -37,6 +37,14 @@ Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
     Cloud concepts, architecture, compute, networking, storage, identity, security, governance, monitoring and cost — aligned with **AZ-900**.
 
     [:octicons-arrow-right-24: Start here](azure/index.md) · [Cheat sheet](azure/15-cheatsheet.md) · [Exam guide](azure/16-exam.md)
+
+-   :material-language-python:{ .lg .middle } **NumPy**
+
+    ---
+
+    Arrays, indexing, broadcasting, linear algebra, random numbers, performance and NumPy for machine learning — written for **NumPy 2.5**, every example tested.
+
+    [:octicons-arrow-right-24: Start here](numpy/index.md) · [Cheat sheet](numpy/14-cheatsheet.md) · [Exercises](numpy/13-exercises.md)
 
 -   :material-source-branch:{ .lg .middle } **CI/CD & GitOps** <small>(coming soon)</small>
 
