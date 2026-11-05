@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Core Workflow & CLI
 
 <span class="exam-tag">Obj 3a–3g</span><span class="exam-tag">Obj 7c</span>

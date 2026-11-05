@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Math, Statistics & Sorting
 
 ## Aggregations and the `axis` argument

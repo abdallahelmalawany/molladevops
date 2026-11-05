@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Performance & Copy-on-Write
 
 ## Copy-on-Write (CoW) — the pandas 3 memory model

@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Introduction & Infrastructure as Code
 
 <span class="exam-tag">Obj 1a</span><span class="exam-tag">Obj 1b</span><span class="exam-tag">Obj 1c</span>

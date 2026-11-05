@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Performance & Memory
 
 ## 1. Vectorise — avoid Python loops

@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # kubectl & YAML
 
 <span class="exam-tag">CKA</span>

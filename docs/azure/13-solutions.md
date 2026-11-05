@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # IoT, Data, AI & DevOps Solutions
 
 !!! info

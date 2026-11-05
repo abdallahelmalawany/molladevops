@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Networking, CNI & DNS
 
 <span class="exam-tag">CKA</span>

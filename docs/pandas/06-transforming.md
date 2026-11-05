@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Transforming Data
 
 ## Adding & computing columns

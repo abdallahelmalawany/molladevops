@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # AI Infrastructure & GPUs on Kubernetes
 
 ## Why GPUs on Kubernetes?

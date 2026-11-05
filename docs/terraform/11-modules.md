@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Modules & Registry
 
 <span class="exam-tag">Obj 5a–5d</span>

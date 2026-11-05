@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Variables, Locals & Outputs
 
 <span class="exam-tag">Obj 4c</span><span class="exam-tag">Obj 4d</span>

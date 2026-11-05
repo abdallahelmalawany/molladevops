@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Introduction & Setup
 
 ## What is NumPy?

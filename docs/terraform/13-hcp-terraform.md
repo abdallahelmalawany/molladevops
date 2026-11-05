@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # HCP Terraform & Terraform Enterprise
 
 <span class="exam-tag">Obj 8a–8d</span>

@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Import & Refactoring
 
 <span class="exam-tag">Obj 7a</span><span class="exam-tag">Obj 6d</span>

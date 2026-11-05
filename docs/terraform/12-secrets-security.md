@@ -1,3 +1,11 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+  - Security
+---
+
 # Secrets & Sensitive Data
 
 <span class="exam-tag">Obj 4h</span>

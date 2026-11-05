@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Operations, ufuncs & Broadcasting
 
 ## Vectorised arithmetic

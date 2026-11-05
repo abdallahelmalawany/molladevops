@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Introduction & Setup
 
 ## What is pandas?

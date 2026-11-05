@@ -1,3 +1,11 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - CKS
+  - Exam guide
+---
+
 # CKA / CKS Exam Guide
 
 !!! warning "Check before booking"

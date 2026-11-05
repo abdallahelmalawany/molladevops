@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # Cloud Concepts
 
 <span class="exam-tag">AZ-900 · Cloud concepts</span>

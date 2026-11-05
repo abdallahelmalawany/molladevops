@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Services, Ingress & Gateway API
 
 <span class="exam-tag">CKA</span>

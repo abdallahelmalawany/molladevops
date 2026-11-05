@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Kubernetes Fundamentals
 
 ## What is Kubernetes?

@@ -1,3 +1,11 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+  - What's new
+---
+
 # What Changed vs. the Course
 
 The source was an **AZ-900 course PDF** (11 modules, 212 slides) written for an older version of the exam. Content was rewritten, reorganised to the **July 2026** skills outline, and checked against Microsoft Learn.

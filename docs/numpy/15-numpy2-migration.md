@@ -1,3 +1,10 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+  - What's new
+---
+
 # NumPy 2 Migration
 
 NumPy **2.0** (June 2024) was the first major release since 2006. Many tutorials, books and courses still use NumPy 1.x code that now fails or warns. This page lists what changed so you can read old code and write current code.

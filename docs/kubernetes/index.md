@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Kubernetes
 
 Kubernetes (K8s) is an open-source **container-orchestration platform** that automates deploying, scaling and operating containerised applications across a cluster of machines.

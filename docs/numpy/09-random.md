@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Random Numbers
 
 ## The modern API: `Generator`

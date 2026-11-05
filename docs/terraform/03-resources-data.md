@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Resources, Data Sources & Dependencies
 
 <span class="exam-tag">Obj 4a</span><span class="exam-tag">Obj 4b</span><span class="exam-tag">Obj 4f</span>

@@ -1,3 +1,11 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+  - Exam guide
+---
+
 # AZ-900 Exam Guide
 
 ## Exam facts

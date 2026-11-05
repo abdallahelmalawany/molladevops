@@ -1,3 +1,10 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - CKS
+---
+
 # ConfigMaps & Secrets
 
 <span class="exam-tag">CKA</span><span class="exam-tag">CKS</span>

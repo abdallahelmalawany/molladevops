@@ -5,36 +5,41 @@ repo_url: https://github.com/abdallahelmalawany/molladevops
 repo_name: abdallahelmalawany/molladevops
 edit_uri: edit/main/docs/
 site_url: https://abdallahelmalawany.github.io/molladevops/
+copyright: "&copy; Abdallah Elmalawany — MLDev(Ops)²"
 
 theme:
   name: material
   language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
   icon:
-    logo: material/book-open-page-variant
     repo: fontawesome/brands/github
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: deep purple
+    - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.footer
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - toc.follow
     - search.suggest
@@ -43,10 +48,24 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - content.tooltips
 
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+        - tags.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abdallahelmalawany
+      name: GitHub
 
 markdown_extensions:
   - abbr
@@ -83,130 +102,136 @@ markdown_extensions:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - assets/extra.js
+
 nav:
   - Home: index.md
-  - Terraform:
-      - terraform/index.md
-      - Basics:
-          - Introduction & IaC: terraform/01-introduction.md
-          - Providers: terraform/02-providers.md
-          - Resources, Data Sources & Dependencies: terraform/03-resources-data.md
-          - Core Workflow & CLI: terraform/04-workflow-cli.md
-      - HCL Language:
-          - Variables, Locals & Outputs: terraform/05-variables-outputs.md
-          - Expressions, Loops & Functions: terraform/06-expressions-functions.md
-          - Validation & Custom Conditions: terraform/07-validation-conditions.md
-          - Provisioners & terraform_data: terraform/08-provisioners.md
-      - State & Modules:
-          - State, Backends & Workspaces: terraform/09-state-backends.md
-          - Import & Refactoring: terraform/10-import-refactor.md
-          - Modules & Registry: terraform/11-modules.md
-      - Security & Teams:
-          - Secrets & Sensitive Data: terraform/12-secrets-security.md
-          - HCP Terraform & Enterprise: terraform/13-hcp-terraform.md
-          - Team Workflow & Best Practices: terraform/14-best-practices.md
-      - Practice & Exam:
-          - Hands-on Labs & Projects: terraform/15-labs.md
-          - CLI Cheat Sheet: terraform/16-cheatsheet.md
-          - Associate Exam (004) Guide: terraform/17-exam.md
-          - What Changed vs. the Course: terraform/18-changes.md
-  - Kubernetes:
-      - kubernetes/index.md
-      - Basics:
-          - Fundamentals: kubernetes/01-fundamentals.md
-          - Architecture: kubernetes/02-architecture.md
-          - Cluster Setup: kubernetes/03-cluster-setup.md
-          - kubectl & YAML: kubernetes/04-kubectl-yaml.md
-      - Workloads:
-          - Pods & Workloads: kubernetes/05-pods-workloads.md
-          - Scheduling & Autoscaling: kubernetes/08-scheduling-autoscaling.md
-          - Jobs & CronJobs: kubernetes/09-jobs-cronjobs.md
-          - ConfigMaps & Secrets: kubernetes/10-configuration.md
-      - Networking:
-          - Networking, CNI & DNS: kubernetes/06-networking.md
-          - Services, Ingress & Gateway API: kubernetes/07-services-ingress-gateway.md
-      - Storage & State:
-          - Storage: kubernetes/11-storage.md
-          - StatefulSets: kubernetes/12-statefulsets.md
-          - Helm, Kustomize & CRDs: kubernetes/13-helm-kustomize-crds.md
-      - Security:
-          - Security & RBAC: kubernetes/14-security.md
-      - Operations:
-          - Amazon EKS: kubernetes/15-eks.md
-          - Observability & Troubleshooting: kubernetes/16-observability-troubleshooting.md
-          - Cluster Maintenance: kubernetes/17-maintenance.md
-          - Production & GitOps: kubernetes/18-production-gitops.md
-      - AI Infrastructure:
-          - AI & GPUs: kubernetes/19-ai-gpu.md
-      - Practice & Exams:
-          - Hands-on Labs & Capstones: kubernetes/20-labs.md
-          - kubectl Cheat Sheet: kubernetes/21-cheatsheet.md
-          - CKA / CKS Exam Guide: kubernetes/22-exams.md
-          - What Changed vs. the Course: kubernetes/23-changes.md
-  - Azure:
-      - azure/index.md
-      - Foundations:
-          - Cloud Concepts: azure/01-cloud-concepts.md
-          - Azure Architecture: azure/02-architecture.md
-      - Core Services:
-          - Compute: azure/03-compute.md
-          - Networking: azure/04-networking.md
-          - Storage: azure/05-storage.md
-          - Databases: azure/06-databases.md
-      - Identity & Security:
-          - Identity & Access: azure/07-identity.md
-          - Security: azure/08-security.md
-      - Management & Governance:
-          - Governance & Compliance: azure/09-governance-compliance.md
-          - Management & Monitoring Tools: azure/10-management-tools.md
-          - Cost Management: azure/11-cost-management.md
-          - SLAs & Service Lifecycle: azure/12-sla-lifecycle.md
-      - Solutions:
-          - IoT, Data, AI & DevOps: azure/13-solutions.md
-      - Practice & Exam:
-          - Hands-on Labs: azure/14-labs.md
-          - Azure CLI Cheat Sheet: azure/15-cheatsheet.md
-          - AZ-900 Exam Guide: azure/16-exam.md
-          - What Changed vs. the Course: azure/17-changes.md
-  - NumPy:
-      - numpy/index.md
-      - Basics:
-          - Introduction & Setup: numpy/01-introduction.md
-          - Creating Arrays: numpy/02-creating-arrays.md
-          - Attributes & dtypes: numpy/03-dtypes-attributes.md
-          - Indexing, Slicing & Views: numpy/04-indexing-slicing.md
-      - Core Operations:
-          - ufuncs & Broadcasting: numpy/05-ufuncs-broadcasting.md
-          - Reshaping & Stacking: numpy/06-reshaping.md
-          - Math, Statistics & Sorting: numpy/07-math-statistics.md
-          - Linear Algebra: numpy/08-linear-algebra.md
-          - Random Numbers: numpy/09-random.md
-      - Advanced & Applied:
-          - File I/O & Interop: numpy/10-io-interop.md
-          - Performance & Memory: numpy/11-performance.md
-          - NumPy for Machine Learning: numpy/12-numpy-for-ml.md
-      - Practice & Reference:
-          - Exercises with Solutions: numpy/13-exercises.md
-          - Cheat Sheet: numpy/14-cheatsheet.md
-          - NumPy 2 Migration: numpy/15-numpy2-migration.md
-  - pandas:
-      - pandas/index.md
-      - Basics:
-          - Introduction & Setup: pandas/01-introduction.md
-          - Series, DataFrame & dtypes: pandas/02-series-dataframe.md
-          - Reading & Writing Data: pandas/03-io.md
-          - Selecting & Filtering: pandas/04-selection.md
-      - Wrangling:
-          - Cleaning Data: pandas/05-cleaning.md
-          - Transforming Data: pandas/06-transforming.md
-          - GroupBy & Pivot Tables: pandas/07-groupby.md
-          - Merging & Reshaping: pandas/08-merge-reshape.md
-          - Time Series: pandas/09-time-series.md
-      - Advanced & Applied:
-          - Performance & Copy-on-Write: pandas/10-performance.md
-          - Visualisation & Styling: pandas/11-visualisation.md
-          - pandas for Machine Learning: pandas/12-pandas-for-ml.md
-      - Practice & Reference:
-          - Exercises with Solutions: pandas/13-exercises.md
-          - Cheat Sheet: pandas/14-cheatsheet.md
-          - pandas 3 Migration: pandas/15-pandas3-migration.md
+  - Infrastructure:
+      - Terraform:
+          - terraform/index.md
+          - Basics:
+              - Introduction & IaC: terraform/01-introduction.md
+              - Providers: terraform/02-providers.md
+              - Resources, Data Sources & Dependencies: terraform/03-resources-data.md
+              - Core Workflow & CLI: terraform/04-workflow-cli.md
+          - HCL Language:
+              - Variables, Locals & Outputs: terraform/05-variables-outputs.md
+              - Expressions, Loops & Functions: terraform/06-expressions-functions.md
+              - Validation & Custom Conditions: terraform/07-validation-conditions.md
+              - Provisioners & terraform_data: terraform/08-provisioners.md
+          - State & Modules:
+              - State, Backends & Workspaces: terraform/09-state-backends.md
+              - Import & Refactoring: terraform/10-import-refactor.md
+              - Modules & Registry: terraform/11-modules.md
+          - Security & Teams:
+              - Secrets & Sensitive Data: terraform/12-secrets-security.md
+              - HCP Terraform & Enterprise: terraform/13-hcp-terraform.md
+              - Team Workflow & Best Practices: terraform/14-best-practices.md
+          - Practice & Exam:
+              - Hands-on Labs & Projects: terraform/15-labs.md
+              - CLI Cheat Sheet: terraform/16-cheatsheet.md
+              - Associate Exam (004) Guide: terraform/17-exam.md
+              - What Changed vs. the Course: terraform/18-changes.md
+      - Kubernetes:
+          - kubernetes/index.md
+          - Basics:
+              - Fundamentals: kubernetes/01-fundamentals.md
+              - Architecture: kubernetes/02-architecture.md
+              - Cluster Setup: kubernetes/03-cluster-setup.md
+              - kubectl & YAML: kubernetes/04-kubectl-yaml.md
+          - Workloads:
+              - Pods & Workloads: kubernetes/05-pods-workloads.md
+              - Scheduling & Autoscaling: kubernetes/08-scheduling-autoscaling.md
+              - Jobs & CronJobs: kubernetes/09-jobs-cronjobs.md
+              - ConfigMaps & Secrets: kubernetes/10-configuration.md
+          - Networking:
+              - Networking, CNI & DNS: kubernetes/06-networking.md
+              - Services, Ingress & Gateway API: kubernetes/07-services-ingress-gateway.md
+          - Storage & State:
+              - Storage: kubernetes/11-storage.md
+              - StatefulSets: kubernetes/12-statefulsets.md
+              - Helm, Kustomize & CRDs: kubernetes/13-helm-kustomize-crds.md
+          - Security:
+              - Security & RBAC: kubernetes/14-security.md
+          - Operations:
+              - Amazon EKS: kubernetes/15-eks.md
+              - Observability & Troubleshooting: kubernetes/16-observability-troubleshooting.md
+              - Cluster Maintenance: kubernetes/17-maintenance.md
+              - Production & GitOps: kubernetes/18-production-gitops.md
+          - AI Infrastructure:
+              - AI & GPUs: kubernetes/19-ai-gpu.md
+          - Practice & Exams:
+              - Hands-on Labs & Capstones: kubernetes/20-labs.md
+              - kubectl Cheat Sheet: kubernetes/21-cheatsheet.md
+              - CKA / CKS Exam Guide: kubernetes/22-exams.md
+              - What Changed vs. the Course: kubernetes/23-changes.md
+      - Azure:
+          - azure/index.md
+          - Foundations:
+              - Cloud Concepts: azure/01-cloud-concepts.md
+              - Azure Architecture: azure/02-architecture.md
+          - Core Services:
+              - Compute: azure/03-compute.md
+              - Networking: azure/04-networking.md
+              - Storage: azure/05-storage.md
+              - Databases: azure/06-databases.md
+          - Identity & Security:
+              - Identity & Access: azure/07-identity.md
+              - Security: azure/08-security.md
+          - Management & Governance:
+              - Governance & Compliance: azure/09-governance-compliance.md
+              - Management & Monitoring Tools: azure/10-management-tools.md
+              - Cost Management: azure/11-cost-management.md
+              - SLAs & Service Lifecycle: azure/12-sla-lifecycle.md
+          - Solutions:
+              - IoT, Data, AI & DevOps: azure/13-solutions.md
+          - Practice & Exam:
+              - Hands-on Labs: azure/14-labs.md
+              - Azure CLI Cheat Sheet: azure/15-cheatsheet.md
+              - AZ-900 Exam Guide: azure/16-exam.md
+              - What Changed vs. the Course: azure/17-changes.md
+  - ML Engineering:
+      - NumPy:
+          - numpy/index.md
+          - Basics:
+              - Introduction & Setup: numpy/01-introduction.md
+              - Creating Arrays: numpy/02-creating-arrays.md
+              - Attributes & dtypes: numpy/03-dtypes-attributes.md
+              - Indexing, Slicing & Views: numpy/04-indexing-slicing.md
+          - Core Operations:
+              - ufuncs & Broadcasting: numpy/05-ufuncs-broadcasting.md
+              - Reshaping & Stacking: numpy/06-reshaping.md
+              - Math, Statistics & Sorting: numpy/07-math-statistics.md
+              - Linear Algebra: numpy/08-linear-algebra.md
+              - Random Numbers: numpy/09-random.md
+          - Advanced & Applied:
+              - File I/O & Interop: numpy/10-io-interop.md
+              - Performance & Memory: numpy/11-performance.md
+              - NumPy for Machine Learning: numpy/12-numpy-for-ml.md
+          - Practice & Reference:
+              - Exercises with Solutions: numpy/13-exercises.md
+              - Cheat Sheet: numpy/14-cheatsheet.md
+              - NumPy 2 Migration: numpy/15-numpy2-migration.md
+      - pandas:
+          - pandas/index.md
+          - Basics:
+              - Introduction & Setup: pandas/01-introduction.md
+              - Series, DataFrame & dtypes: pandas/02-series-dataframe.md
+              - Reading & Writing Data: pandas/03-io.md
+              - Selecting & Filtering: pandas/04-selection.md
+          - Wrangling:
+              - Cleaning Data: pandas/05-cleaning.md
+              - Transforming Data: pandas/06-transforming.md
+              - GroupBy & Pivot Tables: pandas/07-groupby.md
+              - Merging & Reshaping: pandas/08-merge-reshape.md
+              - Time Series: pandas/09-time-series.md
+          - Advanced & Applied:
+              - Performance & Copy-on-Write: pandas/10-performance.md
+              - Visualisation & Styling: pandas/11-visualisation.md
+              - pandas for Machine Learning: pandas/12-pandas-for-ml.md
+          - Practice & Reference:
+              - Exercises with Solutions: pandas/13-exercises.md
+              - Cheat Sheet: pandas/14-cheatsheet.md
+              - pandas 3 Migration: pandas/15-pandas3-migration.md
+  - Tags: tags.md

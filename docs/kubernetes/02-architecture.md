@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Kubernetes Architecture
 
 <span class="exam-tag">CKA</span>

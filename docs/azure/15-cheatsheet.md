@@ -1,3 +1,11 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+  - Cheat sheet
+---
+
 # Azure CLI Cheat Sheet & Key Facts
 
 ## Azure CLI basics

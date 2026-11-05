@@ -1,3 +1,10 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+  - Cheat sheet
+---
+
 # NumPy Cheat Sheet
 
 ```python

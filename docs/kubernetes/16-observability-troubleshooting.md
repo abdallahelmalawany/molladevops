@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Observability & Troubleshooting
 
 <span class="exam-tag">CKA</span>

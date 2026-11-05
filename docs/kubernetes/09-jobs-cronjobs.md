@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Jobs & CronJobs
 
 <span class="exam-tag">CKA</span>

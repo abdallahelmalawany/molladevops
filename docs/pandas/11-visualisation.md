@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Visualisation & Styling
 
 ## Plotting with `.plot`

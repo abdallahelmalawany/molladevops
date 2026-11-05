@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Time Series
 
 ## Parsing dates

@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # Microsoft Azure
 
 Microsoft Azure is Microsoft's public cloud platform: compute, networking, storage, databases, identity, security, AI and management services delivered on demand from datacenters around the world.

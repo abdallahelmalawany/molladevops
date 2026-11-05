@@ -1,3 +1,10 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - Hands-on labs
+---
+
 # Hands-on Labs & Capstones
 
 Use a local **kind**/**Minikube** cluster for labs 1, 2, 4–7; a **kubeadm** cluster for lab 8; **EKS** for lab 3 and the capstones. Try first, then open the solution sketch.

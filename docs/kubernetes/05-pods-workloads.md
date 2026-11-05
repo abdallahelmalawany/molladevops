@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Pods & Workloads
 
 <span class="exam-tag">CKA</span>

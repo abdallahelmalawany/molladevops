@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Linear Algebra
 
 NumPy's `np.linalg` uses optimised **BLAS/LAPACK** libraries (OpenBLAS, MKL, Accelerate).

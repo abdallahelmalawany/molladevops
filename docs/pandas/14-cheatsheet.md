@@ -1,3 +1,10 @@
+---
+tags:
+  - pandas
+  - Python for ML
+  - Cheat sheet
+---
+
 # pandas Cheat Sheet
 
 ```python

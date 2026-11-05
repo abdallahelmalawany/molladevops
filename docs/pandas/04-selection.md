@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Selecting & Filtering
 
 All examples use this DataFrame:

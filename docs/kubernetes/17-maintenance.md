@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Cluster Maintenance
 
 <span class="exam-tag">CKA</span>

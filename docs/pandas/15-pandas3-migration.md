@@ -1,3 +1,10 @@
+---
+tags:
+  - pandas
+  - Python for ML
+  - What's new
+---
+
 # pandas 3 Migration
 
 pandas **3.0** (January 2026) is the biggest change since 1.0. Most tutorials and courses still show pandas 1.x/2.x code. This page explains what changed so you can read older code and write current code.

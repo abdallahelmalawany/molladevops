@@ -1,3 +1,11 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+  - Hands-on labs
+---
+
 # Hands-on Labs
 
 Use a free account or a sandbox subscription. Run labs in **Cloud Shell (Bash)** or locally after `az login`. **Delete the resource group at the end of every lab.**

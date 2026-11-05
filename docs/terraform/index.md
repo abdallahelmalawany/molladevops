@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Terraform
 
 HashiCorp Terraform is an **Infrastructure as Code (IaC)** tool that lets you describe infrastructure in declarative configuration files, preview changes, and apply them safely across any cloud or API.

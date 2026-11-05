@@ -1,3 +1,11 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+  - Exam guide
+---
+
 # Terraform Associate (004) Exam Guide
 
 ## Exam facts

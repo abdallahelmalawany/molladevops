@@ -1,3 +1,11 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+  - What's new
+---
+
 # What Changed vs. the Course
 
 The original course slides (written for Terraform ~1.5 and the **003** exam) were reorganised, rewritten and updated. This page lists every correction, removal and addition so you know what differs from the PDF.

@@ -1,3 +1,11 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+  - Cheat sheet
+---
+
 # CLI Cheat Sheet
 
 ## Setup & init

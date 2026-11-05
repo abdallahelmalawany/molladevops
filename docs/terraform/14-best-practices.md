@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Team Workflow & Best Practices
 
 ## Why keep Terraform code in a VCS repo?

@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Storage
 
 <span class="exam-tag">CKA</span>

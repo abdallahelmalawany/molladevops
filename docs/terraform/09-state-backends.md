@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # State, Backends & Workspaces
 
 <span class="exam-tag">Obj 2d</span><span class="exam-tag">Obj 6a–6d</span><span class="exam-tag">Obj 7b</span>

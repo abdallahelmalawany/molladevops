@@ -1,3 +1,10 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+  - Machine learning
+---
+
 # NumPy for Machine Learning
 
 How everyday ML operations look in pure NumPy — the mental model behind scikit-learn, PyTorch and TensorFlow.

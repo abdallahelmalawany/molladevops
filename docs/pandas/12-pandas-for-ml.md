@@ -1,3 +1,10 @@
+---
+tags:
+  - pandas
+  - Python for ML
+  - Machine learning
+---
+
 # pandas for Machine Learning
 
 pandas is where most ML projects spend their time: **loading, EDA, cleaning, feature engineering and splitting** before data goes to scikit-learn, XGBoost or a deep-learning framework.

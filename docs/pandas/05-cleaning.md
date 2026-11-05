@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Cleaning Data
 
 A typical cleaning pass: **inspect → fix types → handle missing values → remove duplicates → normalise text → validate**.

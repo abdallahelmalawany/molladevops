@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # StatefulSets
 
 <span class="exam-tag">CKA</span>

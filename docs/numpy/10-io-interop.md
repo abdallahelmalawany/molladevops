@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # File I/O & Interoperability
 
 ## NumPy binary formats (fast, exact)

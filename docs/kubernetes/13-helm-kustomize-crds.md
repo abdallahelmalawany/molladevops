@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Helm, Kustomize & CRDs
 
 <span class="exam-tag">CKA</span>

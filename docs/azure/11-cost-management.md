@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # Cost Management
 
 <span class="exam-tag">AZ-900 · Management & governance</span>

@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # NumPy
 
 **NumPy** (Numerical Python) is the foundation of the Python data & ML stack: a fast **N-dimensional array** (`ndarray`) plus vectorised math, linear algebra, random numbers and I/O. pandas, scikit-learn, SciPy, Matplotlib, PyTorch and TensorFlow all build on — or interoperate with — NumPy arrays.

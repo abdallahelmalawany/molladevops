@@ -1,3 +1,11 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+  - Hands-on labs
+---
+
 # Hands-on Labs & Projects
 
 Practice tasks rewritten from the course assignments, updated to current syntax. Try each one first, then open the **solution sketch**.

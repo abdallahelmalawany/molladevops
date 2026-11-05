@@ -1,3 +1,10 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - Cheat sheet
+---
+
 # kubectl Cheat Sheet
 
 ## Setup

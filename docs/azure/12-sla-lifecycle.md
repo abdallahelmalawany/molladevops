@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # SLAs & Service Lifecycle
 
 ## Service Level Agreements (SLAs)

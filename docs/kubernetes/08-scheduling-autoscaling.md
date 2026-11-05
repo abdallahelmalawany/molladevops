@@ -1,3 +1,9 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+---
+
 # Scheduling & Autoscaling
 
 <span class="exam-tag">CKA</span>

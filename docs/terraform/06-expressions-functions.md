@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Expressions, Loops & Functions
 
 <span class="exam-tag">Obj 4d</span><span class="exam-tag">Obj 4e</span>

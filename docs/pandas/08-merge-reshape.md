@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Merging, Joining & Reshaping
 
 ## `concat` — stack DataFrames

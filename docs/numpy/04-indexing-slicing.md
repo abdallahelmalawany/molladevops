@@ -1,3 +1,9 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+---
+
 # Indexing, Slicing, Views & Copies
 
 ## 1-D indexing and slicing

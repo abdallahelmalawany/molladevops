@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # pandas
 
 **pandas** is Python's library for **tabular data**: loading, cleaning, transforming, aggregating, joining and analysing data in labelled tables (`DataFrame`) and columns (`Series`). It sits on top of [NumPy](../numpy/index.md) (and optionally Apache Arrow) and feeds scikit-learn, plotting libraries and ML pipelines.

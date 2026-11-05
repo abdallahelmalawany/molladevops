@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # Series, DataFrame & dtypes
 
 ## Series

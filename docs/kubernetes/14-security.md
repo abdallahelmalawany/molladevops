@@ -1,3 +1,11 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - CKS
+  - Security
+---
+
 # Security & RBAC
 
 <span class="exam-tag">CKA</span><span class="exam-tag">CKS</span>

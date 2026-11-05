@@ -1,3 +1,10 @@
+---
+tags:
+  - Azure
+  - AZ-900
+  - Cloud
+---
+
 # Identity & Access
 
 <span class="exam-tag">AZ-900 · Architecture & services</span>

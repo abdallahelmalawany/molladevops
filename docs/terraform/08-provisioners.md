@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Provisioners & `terraform_data`
 
 !!! warning "Provisioners are a last resort"

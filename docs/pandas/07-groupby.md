@@ -1,3 +1,9 @@
+---
+tags:
+  - pandas
+  - Python for ML
+---
+
 # GroupBy, Aggregation & Pivot Tables
 
 ## Split → apply → combine

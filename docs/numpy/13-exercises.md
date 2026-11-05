@@ -1,3 +1,10 @@
+---
+tags:
+  - NumPy
+  - Python for ML
+  - Exercises
+---
+
 # Exercises with Solutions
 
 Try each exercise first, then open the solution. Every solution runs on NumPy 2.5.

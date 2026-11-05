@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Providers
 
 <span class="exam-tag">Obj 2a</span><span class="exam-tag">Obj 2b</span><span class="exam-tag">Obj 2c</span>

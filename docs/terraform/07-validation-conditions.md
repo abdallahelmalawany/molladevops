@@ -1,3 +1,10 @@
+---
+tags:
+  - Terraform
+  - Terraform Associate
+  - IaC
+---
+
 # Validation & Custom Conditions
 
 <span class="exam-tag">Obj 4g</span>

@@ -1,3 +1,10 @@
+---
+tags:
+  - Kubernetes
+  - CKA
+  - What's new
+---
+
 # What Changed vs. the Course
 
 The source was the **Kubernetes Mastery** deck (208 slides, 23 sections). It was already modernised, so most content carried over directly. This page lists what was corrected, removed and added.

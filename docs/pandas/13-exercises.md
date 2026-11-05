@@ -1,3 +1,10 @@
+---
+tags:
+  - pandas
+  - Python for ML
+  - Exercises
+---
+
 # Exercises with Solutions
 
 Each exercise uses small inline data so you can paste it into a notebook. All solutions run on pandas 3.1.
