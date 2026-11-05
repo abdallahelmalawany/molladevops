@@ -46,6 +46,14 @@ Use the search bar (++slash++ or ++s++) to jump to any command, flag or concept.
 
     [:octicons-arrow-right-24: Start here](numpy/index.md) · [Cheat sheet](numpy/14-cheatsheet.md) · [Exercises](numpy/13-exercises.md)
 
+-   :material-table-large:{ .lg .middle } **pandas**
+
+    ---
+
+    DataFrames, I/O, selection, cleaning, group-by, joins, time series, Copy-on-Write and pandas for ML — written for **pandas 3.1**, every example tested.
+
+    [:octicons-arrow-right-24: Start here](pandas/index.md) · [Cheat sheet](pandas/14-cheatsheet.md) · [Exercises](pandas/13-exercises.md)
+
 -   :material-source-branch:{ .lg .middle } **CI/CD & GitOps** <small>(coming soon)</small>
 
     ---

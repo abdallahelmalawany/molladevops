@@ -1,5 +1,5 @@
-site_name: MollaDevops
-site_description: Personal revision notes for DevOps and MLOps tools — Terraform, Kubernetes, Azure, CI/CD, MLOps and more.
+site_name: "MLDev(Ops)*2"
+site_description: "MLDev(Ops)*2 — revision notes for DevOps and MLOps: Terraform, Kubernetes, Azure, NumPy, pandas and more."
 site_author: Abdallah Elmalawany
 repo_url: https://github.com/abdallahelmalawany/molladevops
 repo_name: abdallahelmalawany/molladevops
@@ -168,3 +168,45 @@ nav:
           - Azure CLI Cheat Sheet: azure/15-cheatsheet.md
           - AZ-900 Exam Guide: azure/16-exam.md
           - What Changed vs. the Course: azure/17-changes.md
+  - NumPy:
+      - numpy/index.md
+      - Basics:
+          - Introduction & Setup: numpy/01-introduction.md
+          - Creating Arrays: numpy/02-creating-arrays.md
+          - Attributes & dtypes: numpy/03-dtypes-attributes.md
+          - Indexing, Slicing & Views: numpy/04-indexing-slicing.md
+      - Core Operations:
+          - ufuncs & Broadcasting: numpy/05-ufuncs-broadcasting.md
+          - Reshaping & Stacking: numpy/06-reshaping.md
+          - Math, Statistics & Sorting: numpy/07-math-statistics.md
+          - Linear Algebra: numpy/08-linear-algebra.md
+          - Random Numbers: numpy/09-random.md
+      - Advanced & Applied:
+          - File I/O & Interop: numpy/10-io-interop.md
+          - Performance & Memory: numpy/11-performance.md
+          - NumPy for Machine Learning: numpy/12-numpy-for-ml.md
+      - Practice & Reference:
+          - Exercises with Solutions: numpy/13-exercises.md
+          - Cheat Sheet: numpy/14-cheatsheet.md
+          - NumPy 2 Migration: numpy/15-numpy2-migration.md
+  - pandas:
+      - pandas/index.md
+      - Basics:
+          - Introduction & Setup: pandas/01-introduction.md
+          - Series, DataFrame & dtypes: pandas/02-series-dataframe.md
+          - Reading & Writing Data: pandas/03-io.md
+          - Selecting & Filtering: pandas/04-selection.md
+      - Wrangling:
+          - Cleaning Data: pandas/05-cleaning.md
+          - Transforming Data: pandas/06-transforming.md
+          - GroupBy & Pivot Tables: pandas/07-groupby.md
+          - Merging & Reshaping: pandas/08-merge-reshape.md
+          - Time Series: pandas/09-time-series.md
+      - Advanced & Applied:
+          - Performance & Copy-on-Write: pandas/10-performance.md
+          - Visualisation & Styling: pandas/11-visualisation.md
+          - pandas for Machine Learning: pandas/12-pandas-for-ml.md
+      - Practice & Reference:
+          - Exercises with Solutions: pandas/13-exercises.md
+          - Cheat Sheet: pandas/14-cheatsheet.md
+          - pandas 3 Migration: pandas/15-pandas3-migration.md
