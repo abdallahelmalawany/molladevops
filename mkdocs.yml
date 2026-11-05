@@ -1,11 +1,11 @@
-site_name: "MLDev(Ops)*2"
-site_description: "MLDev(Ops)*2 — revision notes for DevOps and MLOps: Terraform, Kubernetes, Azure, NumPy, pandas and more."
+site_name: "OopsIT"
+site_description: "OopsIT — revision notes for DevOps and MLOps: Terraform, Kubernetes, Azure, NumPy, pandas and more."
 site_author: Abdallah Elmalawany
 repo_url: https://github.com/abdallahelmalawany/molladevops
 repo_name: abdallahelmalawany/molladevops
 edit_uri: edit/main/docs/
 site_url: https://abdallahelmalawany.github.io/molladevops/
-copyright: "&copy; Abdallah Elmalawany — MLDev(Ops)²"
+copyright: "&copy; Abdallah Elmalawany — OopsIT"
 
 theme:
   name: material

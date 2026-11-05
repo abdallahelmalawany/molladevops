@@ -1,4 +1,4 @@
-# MLDev(Ops)*2
+# OopsIT
 
 Personal revision website for DevOps and MLOps tools, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published automatically to GitHub Pages.
 

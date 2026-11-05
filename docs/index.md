@@ -10,9 +10,9 @@ hide:
 
 <p class="mld-hero__eyebrow">$ revise --fast devops mlops</p>
 
-<h1 class="mld-hero__title">MLDev(Ops)<span class="mld-sq">²</span></h1>
+<h1 class="mld-hero__title">Oops<span class="mld-sq">IT</span></h1>
 
-<p class="mld-hero__lead"><strong>ML + Dev + Ops, squared.</strong> Concise, exam-aligned revision notes for the DevOps and MLOps tools I use and study — organised so any topic can be reviewed in a few minutes.</p>
+<p class="mld-hero__lead"><strong>Because every ops has its oops.</strong> Concise, exam-aligned revision notes for the DevOps and MLOps tools I use and study — organised so any topic can be reviewed in a few minutes.</p>
 
 [:material-magnify: Search everything](#){ .md-button .md-button--primary onclick="document.querySelector('.md-search__input').focus(); return false;" }
 [:material-rocket-launch: Start with Kubernetes](kubernetes/index.md){ .md-button }
